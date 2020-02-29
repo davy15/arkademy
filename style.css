@@ -214,47 +214,101 @@ section{
 }
 .inputname{
   position: absolute;
-  width: 382px;
-  height: 46px;
   left: calc(50% - 382px/2);
   top: calc(50% - 46px/2 - 128px);
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+.inputname input{
+  position: static;
+  width: 350px;
+  height: 40px;
+  left: 16px;
+  top: 16px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #A9A9A9;
+}
 .inputemail{
   position: absolute;
-  width: 382px;
-  height: 46px;
   left: calc(50% - 382px/2 + 0.5px);
   top: calc(50% - 46px/2 - 66px);
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+.inputemail input{
+  position: static;
+  width: 350px;
+  height: 40px;
+  left: 16px;
+  top: 16px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+
+  color: #A9A9A9;
+}
 .inputphone{
   position: absolute;
-  width: 177px;
-  height: 46px;
   left: calc(50% - 177px/2 - 102px);
   top: calc(50% - 46px/2 - 4px);
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+.inputphone input{
+  position: static;
+  width: 177px;
+  height: 46px;
+  left: 16px;
+  top: 16px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #A9A9A9;
+}
 .inputnegara{
   position: absolute;
-  width: 189px;
-  height: 50px;
   left: calc(50% - 189px/2 + 97px);
   top: calc(50% - 46px/2 - 4px);
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+.inputnegara select{
+  position: static;
+  width: 177px;
+  height: 50px;
+  left: 16px;
+  top: 16px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #A9A9A9;
+  cursor: pointer;
+}
 .inputabout{
   position: absolute;
-  width: 382px;
+  width: 370px;
   height: 116px;
   left: calc(50% - 382px/2 + 0.5px);
   top: calc(50% - 116px/2 + 93px);
@@ -262,9 +316,25 @@ section{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
+.inputabout textarea{
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  left: 10px;
+  top: 6px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  color: #A9A9A9;
+  border: none;
+}
 .resersubmit{
   position: absolute;
-  width: 383px;
+  width: 372px;
   height: 53px;
   left: calc(50% - 383px/2 + 0.5px);
   top: calc(50% - 53px/2 + 209.5px);
@@ -273,4 +343,23 @@ section{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
   cursor: pointer;  
+}
+.resersubmit input{
+  position: static;
+  width: 370px;
+  height: 53px;
+  left: 16px;
+  top: 16px;
+  border: none;
+  font-family: Pacifico;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: transparent;
+  cursor: pointer;
 }
