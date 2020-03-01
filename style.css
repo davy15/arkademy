@@ -266,18 +266,19 @@ section{
 }
 .inputphone{
   position: absolute;
+  width: 177px;
+  height: 46px;
   left: calc(50% - 177px/2 - 102px);
   top: calc(50% - 46px/2 - 4px);
   background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
 }
 .inputphone input{
-  position: static;
-  width: 177px;
-  height: 46px;
-  left: 16px;
-  top: 16px;
+  position: absolute;
+  width: 165px;
+  height: 35px;
+  left: 3px;
+  top: 2px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
@@ -286,9 +287,12 @@ section{
   display: flex;
   align-items: center;
   color: #A9A9A9;
+  border: none;
 }
 .inputnegara{
   position: absolute;
+  width: 177px;
+  height: 50px;
   left: calc(50% - 189px/2 + 97px);
   top: calc(50% - 46px/2 - 4px);
   background: #FFFFFF;
@@ -296,11 +300,11 @@ section{
   border-radius: 8px;
 }
 .inputnegara select{
-  position: static;
-  width: 177px;
-  height: 50px;
-  left: 16px;
-  top: 16px;
+  position: absolute;
+  width: 170px;
+  height: 40px;
+  left: 4px;
+  top: 5px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
@@ -310,6 +314,7 @@ section{
   align-items: center;
   color: #A9A9A9;
   cursor: pointer;
+  border: none;
 }
 .inputabout{
   position: absolute;
