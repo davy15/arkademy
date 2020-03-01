@@ -214,6 +214,8 @@ section{
 }
 .inputname{
   position: absolute;
+  width: 370px;
+  height: 45px;
   left: calc(50% - 382px/2);
   top: calc(50% - 46px/2 - 128px);
   background: #FFFFFF;
@@ -221,11 +223,11 @@ section{
   border-radius: 8px;
 }
 .inputname input{
-  position: static;
-  width: 350px;
-  height: 40px;
-  left: 16px;
-  top: 16px;
+  position: absolute;
+  width: 330px;
+  height: 35px;
+  left: 10px;
+  top: 3px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
@@ -234,9 +236,12 @@ section{
   display: flex;
   align-items: center;
   color: #A9A9A9;
+  border: none;
 }
 .inputemail{
   position: absolute;
+  width: 370px;
+  height: 45px;
   left: calc(50% - 382px/2 + 0.5px);
   top: calc(50% - 46px/2 - 66px);
   background: #FFFFFF;
@@ -244,11 +249,11 @@ section{
   border-radius: 8px;
 }
 .inputemail input{
-  position: static;
-  width: 350px;
-  height: 40px;
-  left: 16px;
-  top: 16px;
+  position: absolute;
+  width: 330px;
+  height: 35px;
+  left: 10px;
+  top: 2px;
   font-family: SF Pro Display;
   font-style: normal;
   font-weight: normal;
@@ -256,8 +261,8 @@ section{
   line-height: 14px;
   display: flex;
   align-items: center;
-
   color: #A9A9A9;
+  border: none;
 }
 .inputphone{
   position: absolute;
