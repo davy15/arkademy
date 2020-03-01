@@ -183,7 +183,7 @@ section{
   top: 270px;
 }
 .textpenjelas h1{
-  font-family: SF Pro Display;
+  font-family: SF Pro Display, Roboto Condensed ;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -355,18 +355,15 @@ section{
   cursor: pointer;  
 }
 .resersubmit input{
-  position: static;
+  position: absolute;
   width: 370px;
   height: 53px;
-  left: 16px;
-  top: 16px;
   border: none;
   font-family: Pacifico;
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 21px;
-  display: flex;
   align-items: center;
   text-align: center;
   color: #FFFFFF;
